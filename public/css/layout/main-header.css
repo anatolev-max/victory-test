@@ -1,0 +1,35 @@
+.main-header {
+    background-color: lightgray;
+}
+
+.main-header nav {
+    display: flex;
+    align-items: center;
+    height: 80px;
+}
+
+.main-header nav .logo {
+    padding: 5px;
+    color: #000;
+    text-decoration: none;
+    background-color: #fff;
+}
+
+.main-header nav .nav-list {
+    display: flex;
+    margin-left: auto;
+    list-style: none;
+}
+
+.main-header nav .nav-list .nav-item:not(:first-child) {
+    margin-left: 20px;
+}
+
+.main-header nav .nav-list .nav-item .nav-link {
+    color: #000;
+    text-decoration: none;
+}
+
+.main-header nav .nav-list .nav-item.active .nav-link {
+    text-decoration: underline;
+}

@@ -1,0 +1,9 @@
+.main-header {
+    background-color: lightgreen;
+}
+
+input[type=submit] {
+    border: none;
+    border-radius: 4px;
+    background-color: lightseagreen;
+}
